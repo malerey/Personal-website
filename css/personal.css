@@ -105,7 +105,23 @@ a:active {
   }
   .blackbox {
     width: 100%;
+  }
+  .name {
+    font-size: 80px;
+  }
 
+  .description {
+    font-size: 30px;
+  }
+  .link {
+    height: 80px;
+    width: 80px;
 
+  }
+
+  .links i {
+    position: relative;
+      padding: 30px 0 30px 30px;
+      text-align: center;
   }
 }
