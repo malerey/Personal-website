@@ -4,9 +4,7 @@ body {
 
 }
 
-.main {
-  /* display: flex */
-}
+
 
 .blackbox {
   width: 40%;
@@ -84,7 +82,6 @@ a:active {
 .photo {
   height:99vh;
   width: 60%;
-  background-color: orange;
   float: right;
 }
 
@@ -92,4 +89,23 @@ a:active {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+    display: block;
+  }
+  .photo img {
+    height: 50%;
+    width: auto;
+  }
+  .blackbox {
+    width: 100%;
+
+
+  }
 }
